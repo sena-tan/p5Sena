@@ -1,28 +1,3 @@
-// create a variable to control the direction of the ellipse
-let control = false;
-// make ellipse starting from the left end of the canvas
-let i=30;
-function setup() {
-  // create canvas
-  createCanvas(800,500);
-}
-// function draw () {
-//       // set background color
-//   background('#31bc33');
-//   if (i==30) {
-//     control = false;
-//   }
-//   if (i<(width-30) && control==false){
-//     i++
-//     ellipse(i,height/2,60);
-//   }
-//   else {
-//     control = true;
-//     i--;
-//     ellipse(i,height/2,60);
-//   }
-// }
-
 let	x= 300;
 let	y= 200;
 let	speedx= 4;
